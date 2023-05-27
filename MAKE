@@ -1,0 +1,7 @@
+#!bin/sh
+
+libs="-lncurses"
+out=main
+
+BUILD:
+    gcc main.c -o $out $libs
